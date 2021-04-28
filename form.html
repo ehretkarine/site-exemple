@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+
+<title>  Formulaire </title>
+
+
+</head>
+
+<body>
+<form>
+<fieldset style="background:#ffffdd;">
+<legend style="background:#ffff88;"><b>client</b></legend>
+
+<center>
+<table>
+<tr>
+<td>  Civilités </td>   <td> <input type="radio" id="civilité" name="civilité" /> Mademoiselle
+<input type="radio" id="civilité" name="civilité" /> Madame
+<input type="radio" id="civilité" name="civilité"/> Monsieur </td>
+</tr>
+<tr>
+<td> Nom/Prénom: </td> <td> <input  type="texte" id="zone de texte" /> </td>
+</tr>
+<tr>
+<td> adresse: </td>  <td></input><textarea></textarea>
+</tr>
+<td> Num postal/Localité </td> <td> <input maxlength="5" type="texte" id="zone de texte" /> <input type="texte id="zone de texte"/>
+</tr> 
+<tr>
+<td>Pays </td> <td>
+<select>
+<option>France</option>
+<option>Belgique</option>
+<option selected>Suisse</option>
+</tr>
+<tr>
+<td> Plateforme(s) </td> <td>
+<input checked type="checkbox" id= "Windows"/> Windows</input>
+<input checked type="checkbox" id="Macintosh"/> Macintosh</input>
+<input type="checkbox" id="Unix"/> Unix</input>
+</tr>
+<tr>
+<td> Application(s)</td><td>
+<select size="5" multiple>
+<option selected>Bureautique</option>
+<option>DAO</option>
+<option>Statistiques</option>
+<option>SGBD</option>
+<option selected>Internet</option>
+</tr>
+</table>
+</center>
+</fieldset>
+<center>
+
+<table> <input type="submit" value="Soumettre formulaire"/>
+<input type="reset" value="effacer"/></table>
+</center> 
+</form>
+</body>
+
+</html>
